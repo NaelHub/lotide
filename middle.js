@@ -12,21 +12,16 @@
 //   }
 //   return isTrue;
 // };
-
 // const assertArraysEqual = function (a, b) {
 //   if (eqArrays(a, b)) {
 //     console.log(`✅✅✅Assertion Passed: ${a} === ${b} `);
 //   } else {
 //     console.log(`❌❌❌Assertion Failed: ${a} === ${b}`);
 //   }
-
 // };
-
 const eqArrays = require("./eqArrays");
 const assertArraysEqual = require("./assertArraysEqual")
-
 // ACTUAL FUNCTION
-
 const middle = function (array) {
     let result = [];
     if (array.length % 2 === 0) {
