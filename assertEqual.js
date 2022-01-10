@@ -1,3 +1,4 @@
+// FUNCTION IMPLEMENTATION
 const assertEqual = function (actual, expected) {
   if (actual === expected) {
     console.log(`These two are the same: ${actual} vs ${expected}`)
@@ -9,4 +10,6 @@ const assertEqual = function (actual, expected) {
 
 module.exports = assertEqual;
 
-//testing testing
+// TEST CODE
+assertEqual("Lighthouse Labs", "Bootcamp");
+assertEqual(1, 1);
